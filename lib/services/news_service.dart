@@ -9,7 +9,7 @@ class NewsService {
     final Response response = await dio.get(
       'https://newsapi.org/v2/top-headlines',
       queryParameters: {
-        'apiKey': 'e31a8cab2860451483dbd7878b998306',
+        'apiKey': 'ur api key',
         'category': category,
       },
     );
