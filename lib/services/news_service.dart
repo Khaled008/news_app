@@ -35,7 +35,7 @@ class NewsService {
           (article['urlToImage'] ?? 'there is no image').toString();
       final String url = (article['url'] ?? '').toString();
 
-      // skip items with no useful data
+   
       if ((title.isEmpty && description.isEmpty) || url.isEmpty) continue;
 
       articlesList.add(ArticleModel(
